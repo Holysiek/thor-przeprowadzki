@@ -1,0 +1,7 @@
+[build]
+  base = "."
+  command = ""
+  publish = "public"
+
+[build.processing.html]
+  pretty_urls = true
