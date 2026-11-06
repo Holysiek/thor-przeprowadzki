@@ -2,10 +2,14 @@
 
 Static website for https://thor-przeprowadzki.pl, hosted on Netlify.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a4870307-3293-414e-aa7a-17213bc16383/deploy-status)](https://app.netlify.com/projects/thor-przeprowadzki/deploys)
+
 ## Publishing
 
-Connect this repository to the existing `thor-przeprowadzki` Netlify project.
-The production branch is `main`. Netlify automatically publishes each push.
+This repository is linked to the existing `thor-przeprowadzki` Netlify project
+(site ID `a4870307-3293-414e-aa7a-17213bc16383`). The production branch is
+`main`. Netlify automatically publishes each push. This connection was configured
+on 2026-11-06; the first Git-based production deploy published commit `c5a73bd`.
 The root `netlify.toml` configures the publish directory as `public`; no build
 command is needed. GitHub Pages and a GitHub Actions deployment are not needed.
 
